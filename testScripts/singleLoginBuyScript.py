@@ -58,7 +58,7 @@ class LoginAndBuy:
     def clickLogout(self):
         return self.page.locator(select.logoutUser()).click()
 
-    def getStatus(self):
+    def getSuccessStatus(self):
         return set_test_status(self.page, "passed", "Success")
 
     def getFailedStatus(self):
