@@ -11,7 +11,7 @@ To run the **single signup test** for Chrome and go to dashboard for the first t
 
 To run **parallel signup tests** for Chrome and Edge and go to dashboard for the first time:
 
-`python parallelSignupRun`
+`python parallelSignupRun.py`
 
 To run **single login and buy test** for Chrome, buy a product, and checkout:
 
