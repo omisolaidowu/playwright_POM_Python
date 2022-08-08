@@ -1,7 +1,7 @@
 import sys
 sys.path.append(sys.path[0] + "/..")
 
-from testScripts.signup import Register
+from testScripts.signupScript import Register
 from playwright.sync_api import sync_playwright
 
 
