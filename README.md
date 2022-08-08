@@ -5,10 +5,18 @@
 2. Install dependencies using pip or pip3 depending on Python version (pip install Playwright dotenv).
 
 ## To run the test:
-To run the **Login test** test and buy a product in the test scenarios directory:
+To run the **single signup test** for Chrome and go to dashboard for the first time:
 
-`python loginBuyLogout.py`
+`python singleSignupRun.py`
 
-To run the **account creation** test and go to dashboard for the first time:
+To run **parallel signup tests** for Chrome and Edge and go to dashboard for the first time:
 
-`python testSignup.py`
+`python parallelSignupRun`
+
+To run **single login and buy test** for Chrome, buy a product, and checkout:
+
+`python singleLoginBuyRun.py`
+
+To run **parallel login and buy test** for Chrome and Edge, buy a product, and checkout:
+
+`python parallelLoginBuyRun.py`
