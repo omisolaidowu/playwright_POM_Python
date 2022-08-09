@@ -47,3 +47,4 @@ To run **parallel login and buy test** for Chrome and Edge, buy a product, and c
                           |-----------------singleLoginBuyScript.py
                           |-----------------singleSignupScript.py
 ```
+
