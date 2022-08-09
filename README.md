@@ -20,3 +20,29 @@ To run **single login and buy test** for Chrome, buy a product, and checkout:
 To run **parallel login and buy test** for Chrome and Edge, buy a product, and checkout:
 
 `python parallelLoginBuyRun.py`
+
+
+```Project Directory
+        |-----------elementSelectors
+        |                 |----------------loginAndBuySelectors.py
+        |                 |----------------registrationPageSelectors.py
+        |
+        |------------testCapabilities
+        |                 |-----------------testCaps.py
+        |
+        |
+        |-------------testScenarios
+        |                 |-----------------.env
+                          |-----------------parallelLoginBuyRun.py
+        |                 |-----------------parallelSignupRun.py
+        |                 |-----------------singleLoginBuyRun.py
+        |                 |-----------------singleSignupRun.py
+        |
+        |
+        |
+        |---------------testScripts
+                          |-----------------parallelLoginBuyScript
+                          |-----------------parallelSignup.py
+                          |-----------------singleLoginBuyScript.py
+                          |-----------------singleSignupScript.py
+```
