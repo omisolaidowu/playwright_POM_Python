@@ -21,7 +21,7 @@ To run **parallel login and buy test** for Chrome and Edge, buy a product, and c
 
 `python parallelLoginBuyRun.py`
 
-##Test Structure
+## Test Structure
 
 ```Project Directory
         |-----------elementSelectors
