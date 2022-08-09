@@ -23,7 +23,7 @@ To run **parallel login and buy test** for Chrome and Edge, buy a product, and c
 
 ## Test Structure
 
-**```Project Directory
+```Project Directory
         |-----------elementSelectors
         |                 |----------------loginAndBuySelectors.py
         |                 |----------------registrationPageSelectors.py
@@ -46,4 +46,4 @@ To run **parallel login and buy test** for Chrome and Edge, buy a product, and c
                           |-----------------parallelSignup.py
                           |-----------------singleLoginBuyScript.py
                           |-----------------singleSignupScript.py
-```**
+```
